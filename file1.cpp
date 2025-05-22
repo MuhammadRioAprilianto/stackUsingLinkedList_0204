@@ -46,6 +46,7 @@ void pop(){
     Node* temp = top; // Create a temporary pointer to the top mode
     top = top->next; //Update the top pointer to the next node
     cout << "Popped value: " << top->data << endl;
+    delete temp;
 }
 
 //peek/top operation: Retrieve the value of the topmost element without removing
