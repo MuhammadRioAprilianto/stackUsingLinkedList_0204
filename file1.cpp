@@ -79,5 +79,5 @@ bool isEmpty()
 
 int main()
 {
-    
+    Stack stack;
 }
