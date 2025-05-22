@@ -30,5 +30,13 @@ int push(int value){
     newNode->next = top; //3. set the next pointer of the new node to the current top
     top = newNode;
     cout << "Push value: " << value << endl;
+    return value;
+}
+
+//pop operation: remove the topmost element from the stack
+void pop(){
+    if (isEmpty()){
+        cout << "Stack is empty." << endl;
+    }
 }
 };
